@@ -42,11 +42,13 @@ class InstaStories extends StatelessWidget {
                 width: 60.0,
                 height: 60.0,
                 decoration: new BoxDecoration(
-                    shape: BoxShape.circle,
-                    border: Border.all(color: Colors.blueAccent),
-                    image: DecorationImage(
-                        fit: BoxFit.fitHeight,
-                        image: NetworkImage(faces[index]))),
+                  shape: BoxShape.circle,
+                  border: Border.all(color: Colors.blueAccent),
+                  image: DecorationImage(
+                    fit: BoxFit.fitHeight,
+                    image: NetworkImage(faces[index]),
+                  ),
+                ),
               ),
               index == 0
                   ? Positioned(
